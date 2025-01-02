@@ -1,0 +1,3 @@
+# Unreachable Code After Return Statement in Julia
+This repository demonstrates an uncommon bug in Julia that arises from unreachable code after a return statement within an if-else block.  This can lead to unexpected behavior or runtime errors, depending on the compiler's optimizations and the specific circumstances.
+The `bug.jl` file contains the buggy code. The `bugSolution.jl` file shows the corrected version.  The issue is subtle and highlights the importance of careful code structure and flow control.
